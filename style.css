@@ -1,0 +1,41 @@
+.view {
+    background: url("sources/img1021F.jpg")no-repeat center center;
+    background-size: cover;
+}
+.aboutus {
+    background: url("sources/IMG_5951.jpg")no-repeat;
+    background-size: cover;
+}
+.navbar {
+    background-color: transparent;
+}
+
+.top-nav-collapse {
+    background-color: #2a6bac;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #2a6bac;
+    }
+}
+h1,h2,h3,h4,h5,h6{font-family:DINPro;}
+h1{
+    font-size: 60px;
+}
+
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+
+.d-block-h-70 {
+    max-height: 800px;
+    
+}
+.img-handw{
+    max-height: 300px;
+    max-width: 100%;
+}
